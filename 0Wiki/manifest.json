@@ -1,0 +1,25 @@
+{
+	"name": "0Wiki",
+	"short_name": "0Wiki",
+	"version": "0.1",
+	"manifest_version": 2,
+	"description": "Uncensored Wikipedia! This extension just redirect your wikipedia.org url addresses to 0wikipedia.org.",
+	"permissions": [
+          "storage",
+          "webRequest",
+		  "webRequestBlocking",
+          "*://*.wikipedia.org/*"
+        ],
+	"background": {
+		"scripts": ["background.js"]},
+	"icons": { 
+	    "16": "icon16.png",
+		"48": "icon48.png",
+		"64": "icon64.png",
+		"128": "icon128.png" },
+	"browser_action": {
+		"default_title": "0Wiki",
+		"default_popup": "popup.html",
+		"default_icon": "icon.png"
+	}
+}

@@ -1,0 +1,113 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <script type="text/javascript" src="popup.js"></script>
+        <style type="text/css">
+            .uncensored_btn_class {
+                font-size:20px;
+                font-family:Arial;
+                font-weight:normal;
+                border-radius:42px;
+                border:1px solid #4ca33c;
+                padding:8px 16px;
+                
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#64de00');
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffffff), color-stop(100%, #64de00) );
+                background-color:#ffffff;
+                color:#4f8028;
+                display:inline-block;
+                text-shadow:1px 1px 0px #bedea0;
+                box-shadow: 1px 25px 0px -47px #aed190;
+            }.uncensored_btn_class:hover {
+                background:-moz-linear-gradient( center top, #64de00 5%, #ffffff 100% );
+                background:-ms-linear-gradient( top, #64de00 5%, #ffffff 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#64de00', endColorstr='#ffffff');
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #64de00), color-stop(100%, #ffffff) );
+                background-color:#64de00;
+            }.uncensored_btn_class:active {
+                top:1px;
+			}
+
+            .censored_btn_class {
+                font-size:20px;
+                font-family:Arial;
+                font-weight:normal;
+                border-radius:42px;
+                border:1px solid #d83526;
+                padding:8px 16px;
+                text-decoration:none;
+                background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+                background:-ms-linear-gradient( top, #fe1a00 5%, #ce0100 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #fe1a00), color-stop(100%, #ce0100) );
+                background-color:#fe1a00;
+                color:#ffffff;
+                display:inline-block;
+                text-shadow:1px 1px 0px #b23e35;
+                box-shadow: 1px 25px 0px -47px #f29c93;
+            }.censored_btn_class:hover {
+                background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+                background:-ms-linear-gradient( top, #ce0100 5%, #fe1a00 100% );
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+                background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ce0100), color-stop(100%, #fe1a00) );
+                background-color:#ce0100;
+            }.censored_btn_class:active {
+                position:relative;
+                top:1px;
+            }
+			
+			.status_class{
+				font-weight:normal;
+				color:#000000;
+				letter-spacing:2pt;
+				word-spacing:-2pt;
+				text-align:center;
+				font-size: 29px;
+				font-family:WikiFont;
+				margin:auto;
+				position:relative;
+			}
+			
+			input:focus {
+				outline-width: 0;
+			}
+			
+			@font-face {
+				font-family: WikiFont;
+				src: url(LinLibertine_R.woff);
+			}
+
+			.div_wiki:hover{
+				border-radius:25px;
+				width:190px;
+				height:164px;
+				background-color: #e8e8e8;
+				border:1px solid #e0e0e0;
+				margin: auto;
+			}
+			.arka_div{
+				background-color: #f2f3f4;
+				width: 190px;
+				height: 300px;
+				position: relative;
+				margin: auto;
+				align: center;"
+			}
+        </style>
+    </head>
+
+    <body style="background-color: #f2f3f4; border: 3px solid e8e8e8;" align="center">
+        <div class="arka_div">
+            <p class="status_class">Status:</p>
+			<hr width="120px"></hr>
+			<br/>
+            <input id="1" type="button"></input>
+			<br><br/>
+			<hr width="120px"></hr>
+			<div align="center" class="div_wiki">
+				<a href="#">
+					<img align="center" id ="2">
+				</a>
+			</div>
+        </div>
+    </body>
+</html>
