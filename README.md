@@ -9,4 +9,4 @@ This Google Chrome Extension just redirect all wikipedia.org url addresses to 0w
 <img src='https://github.com/kivanckadir/0Wiki/blob/master/OFF.JPG'/>
 
 ## General View
-<img src='https://github.com/kivanckadir/0Wiki/blob/master/GENERAL_VIEW.JPG'/>
+<img src='https://github.com/kivanckadir/0Wiki/blob/master/GENERAL_VIEW.jpg'/>
