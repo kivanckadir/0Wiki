@@ -1,5 +1,5 @@
 # 0Wiki
-This Google Chrome Extension just redirect all wikipedia.org url addresses to 0wikipedia.org, if you have an access barrier to Wikipedia.
+This Google Chrome Extension just redirects all wikipedia.org url addresses to 0wikipedia.org, if you have an access barrier to Wikipedia.
 
 # Screenshots
 ## Active (Redirecting is on)
